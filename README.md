@@ -1,4 +1,4 @@
-# Program Manajemen Nilai Mahasiswa
+"Program Manajemen Nilai Mahasiswa"
 
 📋 Daftar Isi
 1. [Deskripsi Program](#deskripsi-program)
@@ -10,7 +10,7 @@
 
 
 
-🎯 Deskripsi Program
+"Deskripsi Program"
 
 Program ini adalah aplikasi manajemen nilai mahasiswa yang dibangun menggunakan Python. Program memungkinkan pengguna untuk menambah, menampilkan, mengubah, dan menghapus data nilai mahasiswa dengan antarmuka menu yang interaktif.
 
@@ -316,7 +316,7 @@ Masukkan nama mahasiswa yang ingin dihapus: Ani Wijaya
 
 
 
- 📦 Struktur Data
+ "Struktur Data"
 
  **Data Mahasiswa**
 
@@ -341,7 +341,7 @@ data_mahasiswa = [
 
 
 
-🔄 Validasi Data
+ "Validasi Data"
 
 Program memiliki validasi berikut:
 
@@ -361,7 +361,7 @@ Program memiliki validasi berikut:
 
 ---
 
- 🎓 Konsep Python yang Digunakan
+ "Konsep Python yang Digunakan"
 
 - List & Dictionary**: Struktur data untuk menyimpan data
 - Function**: Modularisasi kode
