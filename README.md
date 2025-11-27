@@ -14,7 +14,6 @@
 
 Program ini adalah aplikasi manajemen nilai mahasiswa yang dibangun menggunakan Python. Program memungkinkan pengguna untuk menambah, menampilkan, mengubah, dan menghapus data nilai mahasiswa dengan antarmuka menu yang interaktif.
 
----
 
  ✨ Fitur
 
@@ -70,11 +69,11 @@ Program ini adalah aplikasi manajemen nilai mahasiswa yang dibangun menggunakan 
         [Hapus Data]       ┌──────────┐
              │             │   END    │
              └────────────►└──────────┘
-
+```
  Detail Flowchart per Fungsi:
 
- **Flowchart Tambah Data**
-
+"Flowchart Tambah Data"
+```
 ┌──────────────────────────┐
 │      START TAMBAH        │
 └─────────────┬────────────┘
@@ -144,10 +143,10 @@ Program ini adalah aplikasi manajemen nilai mahasiswa yang dibangun menggunakan 
                          ┌─────────┐
                          │ RETURN  │
                          └─────────┘
+```
 
-
-**Flowchart Hapus Data**
-
+"Flowchart Hapus Data"
+```
 ┌──────────────────────────┐
 │      START HAPUS         │
 └─────────────┬────────────┘
@@ -167,11 +166,11 @@ Program ini adalah aplikasi manajemen nilai mahasiswa yang dibangun menggunakan 
                      │ RETURN  │
                      └─────────┘
 
-
+```
 
 💡 Penjelasan Program
 
-### **Struktur Global**
+"Struktur Global"
 Program menggunakan sebuah list global `data_mahasiswa` untuk menyimpan semua data mahasiswa dalam bentuk dictionary.
 
 python
@@ -186,11 +185,11 @@ data_mahasiswa = [
 ]
 
 
- **Fungsi Tambah ()**
+ "Fungsi Tambah ()"
 
-**Tujuan**: Menambahkan data mahasiswa baru
+"Tujuan": Menambahkan data mahasiswa baru
 
-**Proses**:
+"Proses":
 1. Menerima input nama, NIM, dan nilai dari pengguna
 2. Validasi nama (cek duplikat dengan perbandingan case-insensitive)
 3. Validasi nilai (harus antara 0-100)
@@ -203,21 +202,21 @@ data_mahasiswa = [
 5. Menyimpan data ke dalam list `data_mahasiswa`
 6. Menampilkan pesan sukses
 
- **Fungsi Tampilkan ()**
+"Fungsi Tampilkan ()"
 
-**Tujuan**: Menampilkan semua data mahasiswa dalam format tabel
+"Tujuan": Menampilkan semua data mahasiswa dalam format tabel
 
-**Proses**:
+"Proses":
 1. Cek apakah ada data (list tidak kosong)
 2. Menampilkan header tabel dengan format kolom: No, Nama, NIM, Nilai, Grade
 3. Iterasi setiap data dan menampilkan dalam format tabel
 4. Menampilkan total jumlah mahasiswa di akhir
 
- **Fungsi Ubah (nama_input=None)**
+ "Fungsi Ubah (nama_input=None)"
 
-**Tujuan**: Mengubah data mahasiswa yang ada
+"Tujuan": Mengubah data mahasiswa yang ada
 
-**Proses**:
+"Proses":
 1. Menampilkan data yang ada
 2. Menerima input nama mahasiswa yang ingin diubah
 3. Mencari data dengan nama yang sesuai (case-insensitive)
@@ -229,22 +228,22 @@ data_mahasiswa = [
 6. Jika nilai diubah, grade otomatis dihitung ulang
 7. Menyimpan perubahan ke dalam dictionary
 
-**Fungsi Hapus (nama_input=None)**
+"Fungsi Hapus (nama_input=None)"
 
-**Tujuan**: Menghapus data mahasiswa berdasarkan nama
+Tujuan: Menghapus data mahasiswa berdasarkan nama
 
-**Proses**:
+Proses:
 1. Menampilkan data yang ada
 2. Menerima input nama mahasiswa yang ingin dihapus
 3. Mencari data dengan nama yang sesuai (case-insensitive)
 4. Jika ditemukan, menghapus data dari list menggunakan `pop()`
 5. Menampilkan pesan sukses penghapusan
 
- **Fungsi Menu ()**
+ "Fungsi Menu ()"
 
-**Tujuan**: Menampilkan menu interaktif dan mengatur alur program
+"Tujuan**: Menampilkan menu interaktif dan mengatur alur program
 
-**Proses**:
+"Proses":
 1. Menampilkan menu utama dalam loop `while True`
 2. Menerima input pilihan dari pengguna (1-5)
 3. Memanggil fungsi sesuai pilihan:
@@ -260,13 +259,13 @@ data_mahasiswa = [
 
  🚀 Cara Penggunaan
 
-**Menjalankan Program**
+"Menjalankan Program"
 
 ```bash
 python tugas_praktikum.py
 ```
 
-**Contoh Penggunaan:**
+"Contoh Penggunaan:"
 
  1. **Menambah Data**
 
@@ -278,7 +277,7 @@ Masukkan nilai: 85
 ✅ Data mahasiswa 'Budi Santoso' berhasil ditambahkan!
 ```
 
-2. **Menampilkan Data**
+2. "Menampilkan Data"
 ```
 Pilihan: 2
 --- Daftar Nilai Mahasiswa ---
@@ -291,7 +290,7 @@ No   Nama                 NIM          Nilai    Grade
 Total mahasiswa: 2
 
 
-#### 3. **Mengubah Data**
+" 3. "Mengubah Data"
 
 Pilihan: 3
 --- Ubah Data Mahasiswa ---
@@ -307,7 +306,7 @@ Masukkan nilai baru: 90
 ✅ Nilai berhasil diubah menjadi 90.0 (Grade: A)!
 
 
-#### 4. **Menghapus Data**
+ 4. "Menghapus Data"
 
 Pilihan: 4
 --- Hapus Data Mahasiswa ---
@@ -317,7 +316,7 @@ Masukkan nama mahasiswa yang ingin dihapus: Ani Wijaya
 
 
 
-## 📦 Struktur Data
+ 📦 Struktur Data
 
  **Data Mahasiswa**
 
@@ -330,7 +329,7 @@ python
 }
 
 
-**List Data Mahasiswa**
+"List Data Mahasiswa"
 
 python
 data_mahasiswa = [
