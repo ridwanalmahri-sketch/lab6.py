@@ -176,10 +176,10 @@ Program menggunakan sebuah list global `data_mahasiswa` untuk menyimpan semua da
 python
 data_mahasiswa = [
     {
-        'nama': 'Budi Santoso',
-        'nim': '20210001',
-        'nilai': 85.5,
-        'grade': 'A'
+        'nama': 'M.Ridwan Almahri',
+        'nim': '312510157',
+        'nilai': 80,
+        'grade': 'B'
     },
     ...
 ]
