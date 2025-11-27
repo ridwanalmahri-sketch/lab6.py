@@ -172,7 +172,7 @@ Program ini adalah aplikasi manajemen nilai mahasiswa yang dibangun menggunakan 
 
 "Struktur Global"
 Program menggunakan sebuah list global `data_mahasiswa` untuk menyimpan semua data mahasiswa dalam bentuk dictionary.
-
+```
 python
 data_mahasiswa = [
     {
@@ -183,7 +183,7 @@ data_mahasiswa = [
     },
     ...
 ]
-
+```
 
  "Fungsi Tambah ()"
 
