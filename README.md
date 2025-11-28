@@ -293,7 +293,7 @@ Total mahasiswa: 1
 
 Pilihan: 3
 --- Ubah Data Mahasiswa ---
-Masukkan nama mahasiswa yang ingin diubah: Budi Santoso
+Masukkan nama mahasiswa yang ingin diubah: M.Ridwan Almahri
 Data saat ini: {...}
 1. Nama
 2. NIM
@@ -309,7 +309,7 @@ Masukkan nilai baru: 90
 
 Pilihan: 4
 --- Hapus Data Mahasiswa ---
-Masukkan nama mahasiswa yang ingin dihapus: Ani Wijaya
+Masukkan nama mahasiswa yang ingin dihapus: M.Ridwan Almahri
 ✅ Data mahasiswa 'M.Ridwan Almahri' berhasil dihapus!
 
 
@@ -332,7 +332,7 @@ python
 
 python
 data_mahasiswa = [
-    {'nama': 'M.Riwan Almahri', 'nim': '312520257', 'nilai': 80.0, 'grade': 'B'},
+    {'nama': 'M.Riwan Almahri', 'nim': '312520257', 'nilai': 90.0, 'grade': 'A'},
 ]
 
 ```
