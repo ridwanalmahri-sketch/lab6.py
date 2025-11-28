@@ -268,13 +268,13 @@ python tugas_praktikum.py
 "Contoh Penggunaan:"
 
  1. **Menambah Data**
-
+```
 Pilihan: 1
 --- Tambah Data Mahasiswa ---
-Masukkan nama mahasiswa: Budi Santoso
-Masukkan NIM: 20210001
-Masukkan nilai: 85
-✅ Data mahasiswa 'Budi Santoso' berhasil ditambahkan!
+Masukkan nama mahasiswa:M.Ridwan Almahri
+Masukkan NIM: 312510157
+Masukkan nilai: 80
+✅ Data mahasiswa 'M.Ridwan Almahri' berhasil ditambahkan!
 ```
 
 2. "Menampilkan Data"
@@ -284,11 +284,10 @@ Pilihan: 2
 
 No   Nama                 NIM          Nilai    Grade 
 --------------------------------------------------
-1    Budi Santoso         20210001     85.00    A     
-2    Ani Wijaya          20210002     78.00    B     
+1   M.Ridwan Almahri         312510157     80.00    B     
 
-Total mahasiswa: 2
-
+Total mahasiswa: 1
+```
 
 " 3. "Mengubah Data"
 
@@ -311,7 +310,7 @@ Masukkan nilai baru: 90
 Pilihan: 4
 --- Hapus Data Mahasiswa ---
 Masukkan nama mahasiswa yang ingin dihapus: Ani Wijaya
-✅ Data mahasiswa 'Ani Wijaya' berhasil dihapus!
+✅ Data mahasiswa 'M.Ridwan Almahri' berhasil dihapus!
 
 
 
@@ -319,7 +318,7 @@ Masukkan nama mahasiswa yang ingin dihapus: Ani Wijaya
  "Struktur Data"
 
  **Data Mahasiswa**
-
+```
 python
 {
     'nama': str,      # Nama lengkap mahasiswa
@@ -327,21 +326,19 @@ python
     'nilai': float,   # Nilai (0-100)
     'grade': str      # Grade (A, B, C, D, E)
 }
-
-
+```
+```
 "List Data Mahasiswa"
 
 python
 data_mahasiswa = [
-    {'nama': 'Budi Santoso', 'nim': '20210001', 'nilai': 85.0, 'grade': 'A'},
-    {'nama': 'Ani Wijaya', 'nim': '20210002', 'nilai': 78.5, 'grade': 'B'},
-    {'nama': 'Citra Dewi', 'nim': '20210003', 'nilai': 92.0, 'grade': 'A'},
+    {'nama': 'M.Riwan Almahri', 'nim': '312520257', 'nilai': 80.0, 'grade': 'B'},
 ]
 
+```
 
 
-
- "Validasi Data"
+ **Validasi Dat**
 
 Program memiliki validasi berikut:
 
